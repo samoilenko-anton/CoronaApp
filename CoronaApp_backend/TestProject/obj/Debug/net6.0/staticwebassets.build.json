@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "PTWydi+aRRJ/7G8HiIqtNQXmrn0d9fP/pWTZniZEmyg=",
+  "Source": "TestProject",
+  "BasePath": "_content/TestProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TestProject\\wwwroot",
+      "Source": "TestProject",
+      "ContentRoot": "C:\\Users\\samoi\\source\\repos\\CoronaApp_backend\\TestProject\\wwwroot\\",
+      "BasePath": "_content/TestProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\samoi\\source\\repos\\CoronaApp_backend\\TestProject\\wwwroot\\Index.html",
+      "SourceId": "TestProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samoi\\source\\repos\\CoronaApp_backend\\TestProject\\wwwroot\\",
+      "BasePath": "_content/TestProject",
+      "RelativePath": "Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    }
+  ]
+}
