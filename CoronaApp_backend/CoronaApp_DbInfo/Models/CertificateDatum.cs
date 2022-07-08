@@ -14,7 +14,7 @@ namespace CoronaApp_DbInfo.Models
 		public string RawCertificateData { get; set; } = null!;
 
 		[MaxLength(64)]
-		public string? CertificateId { get; set; }				// Example: URN:UVCI:01:UA:CDR9QL0WB761LRV07RDSV4XN
+		public string? CertificateId { get; set; }		// Example: URN:UVCI:01:UA:CDR9QL0WB761LRV07RDSV4XN
 
 		[MaxLength(64)]
 		public string FirstName { get; set; } = null!;
@@ -40,15 +40,15 @@ namespace CoronaApp_DbInfo.Models
 		public string? DiseaseCode { get; set; }                // Example: "840539006" --- code for COVID-19 from SNOMED CT (GPS)
 
 		[MaxLength(16)]
-		public string? Vaccine { get; set; }					// Example: "J07BX03" --- code of covid-19 vaccines
+		public string? Vaccine { get; set; }			// Example: "J07BX03" --- code of covid-19 vaccines
 
 		public int? DoseNumber { get; set; }
 
 		public int? TotalDoses { get; set; }
 
-		public DateTime? VaccinationDateUtc { get; set; }		// Example: {09.12.2021 22:00:00} --- UTC
+		public DateTime? VaccinationDateUtc { get; set; }	// Example: {09.12.2021 22:00:00} --- UTC
 
-		public DateTime? ExpirationTime { get; set; }			// Example: {09.12.2022 22:00:00} --- UTC
+		public DateTime? ExpirationTime { get; set; }		// Example: {09.12.2022 22:00:00} --- UTC
 
 		public bool IsValid { get; set; }
 	}
