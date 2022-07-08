@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoronaApp_DbInfo.Migrations
 {
     [DbContext(typeof(CoronavirusCertificatesDbContext))]
-    [Migration("20220708115335_initial")]
+    [Migration("20220708132313_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,57 +33,67 @@ namespace CoronaApp_DbInfo.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("CertificateId")
+                        .HasMaxLength(64)
                         .HasColumnType("nvarchar(64)");
 
                     b.Property<string>("CountryCode")
+                        .HasMaxLength(4)
                         .HasColumnType("nvarchar(4)");
 
                     b.Property<DateTime>("DateOfBirth")
-                        .HasColumnType("date");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("DiseaseCode")
+                        .HasMaxLength(16)
                         .HasColumnType("nvarchar(16)");
 
                     b.Property<int?>("DoseNumber")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("EntryDateUtc")
-                        .HasColumnType("datetime");
+                    b.Property<DateTime?>("EntryDateUtc")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("ExpirationTime")
-                        .HasColumnType("datetime");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
+                        .HasMaxLength(64)
                         .HasColumnType("nvarchar(64)");
 
                     b.Property<bool>("IsValid")
                         .HasColumnType("bit");
 
                     b.Property<string>("Issuer")
+                        .HasMaxLength(128)
                         .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("LastName")
                         .IsRequired()
+                        .HasMaxLength(64)
                         .HasColumnType("nvarchar(64)");
 
                     b.Property<string>("Manufacturer")
+                        .HasMaxLength(32)
                         .HasColumnType("nvarchar(32)");
 
                     b.Property<string>("MedicalProduct")
+                        .HasMaxLength(32)
                         .HasColumnType("nvarchar(32)");
 
                     b.Property<string>("RawCertificateData")
                         .IsRequired()
+                        .HasMaxLength(1024)
                         .HasColumnType("nvarchar(1024)");
 
                     b.Property<int?>("TotalDoses")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("VaccinationDateUtc")
-                        .HasColumnType("datetime");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Vaccine")
+                        .HasMaxLength(16)
                         .HasColumnType("nvarchar(16)");
 
                     b.HasKey("Id");
