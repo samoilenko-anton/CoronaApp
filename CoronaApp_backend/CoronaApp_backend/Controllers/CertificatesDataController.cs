@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc;
-using CoronaApp_backend.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using CoronaApp_DbInfo.Models;
+using CoronaApp_DbInfo;
 using DCC;
 
 namespace CoronaApp_backend.Controllers
@@ -9,26 +9,20 @@ namespace CoronaApp_backend.Controllers
 	[ApiController]
 	public class CertificatesDataController : ControllerBase
 	{
-		private readonly CoronavirusCertificatesContext _context;
-		private readonly GreenCertificateDecoder decoder = new GreenCertificateDecoder();
-
-		public CertificatesDataController(CoronavirusCertificatesContext context) { _context = context; }
+		private readonly CoronavirusCertificatesDbContext _context;
+		
+		public CertificatesDataController(CoronavirusCertificatesDbContext context) {
+			_context = context;
+		}
 
 		// GET: api/CertificatesData
 		[HttpGet]
 		public ActionResult<IEnumerable<CertificateDatum>> GetCertificatesData()
 		{
-			try
-			{
-				if (_context.CertificatesData == null)
-					return Ok("There are no registered certificates.");
+			if (_context.CertificatesData == null)
+				return Ok("There are no registered certificates.");
 
-				return _context.CertificatesData.ToList();
-			}
-			catch (Exception ex)
-			{
-				return BadRequest(ex.Message);
-			}
+			return _context.CertificatesData.ToList();
 		}
 
 		// GET: api/CertificatesData/5
@@ -69,21 +63,14 @@ namespace CoronaApp_backend.Controllers
 		[HttpPost]
 		public ActionResult<CertificateDatum> PostCertificatesDatum(CertificateDatum certificateDatum)
 		{
-			try
-			{
-				if (_context.CertificatesData == null)
-					return Problem("Entity set 'CoronavirusCertificatesContext.CertificatesData'  is null.");
+			if (_context.CertificatesData == null)
+				return Problem("Entity set \"CoronavirusCertificatesContext.CertificatesData\" is null.");
 
-				CertificatesFillingData(certificateDatum);
-				_context.CertificatesData.Add(certificateDatum);
-				_context.SaveChanges();
+			CertificatesFillingData(certificateDatum);
+			_context.CertificatesData.Add(certificateDatum);
+			_context.SaveChanges();
 
-				return Ok();
-			}
-			catch (Exception ex)
-			{
-				return BadRequest(ex.Message);
-			}
+			return Ok();
 		}
 
 		// DELETE: api/CertificatesData/5
@@ -110,7 +97,8 @@ namespace CoronaApp_backend.Controllers
 
 		private void CertificatesFillingData(CertificateDatum certificateDatum)
 		{
-			var cwt = decoder.Decode(certificateDatum.RawCertificateData);
+			GreenCertificateDecoder decoder = new GreenCertificateDecoder();
+			CWT cwt = decoder.Decode(certificateDatum.RawCertificateData);
 
 			//certificateDatum.Id				= ...
 			certificateDatum.EntryDateUtc		= DateTime.UtcNow;

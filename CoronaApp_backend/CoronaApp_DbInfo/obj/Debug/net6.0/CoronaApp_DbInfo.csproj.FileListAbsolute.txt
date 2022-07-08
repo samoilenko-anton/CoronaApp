@@ -1,0 +1,14 @@
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\CoronaApp_DbInfo.csproj.AssemblyReference.cache
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\CoronaApp_DbInfo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\CoronaApp_DbInfo.AssemblyInfoInputs.cache
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\CoronaApp_DbInfo.AssemblyInfo.cs
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\CoronaApp_DbInfo.csproj.CoreCompileInputs.cache
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\bin\Debug\net6.0\CoronaApp_DbInfo.deps.json
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\bin\Debug\net6.0\CoronaApp_DbInfo.runtimeconfig.json
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\bin\Debug\net6.0\CoronaApp_DbInfo.dll
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\bin\Debug\net6.0\CoronaApp_DbInfo.pdb
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\CoronaApp_DbInfo.dll
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\refint\CoronaApp_DbInfo.dll
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\CoronaApp_DbInfo.pdb
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\CoronaApp_DbInfo.genruntimeconfig.cache
+D:\Anton_profile\Programming\C#\CoronaApp_current\CoronaApp\CoronaApp_backend\CoronaApp_DbInfo\obj\Debug\net6.0\ref\CoronaApp_DbInfo.dll

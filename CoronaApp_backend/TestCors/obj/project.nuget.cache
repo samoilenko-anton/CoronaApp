@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "G0OfXB/cx4H3Dc/GVrS0yr0J0fPwu7YfAb37caNrXzNaDwPIZ14edWXdd6mqMr6S4FffMrJAyW1/3x5Lh2PxEg==",
+  "success": true,
+  "projectFilePath": "D:\\Anton_profile\\Programming\\C#\\CoronaApp_current\\CoronaApp\\CoronaApp_backend\\TestCors\\TestCors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samoi\\.nuget\\packages\\elasticsearch.net\\7.17.4\\elasticsearch.net.7.17.4.nupkg.sha512",
+    "C:\\Users\\samoi\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\samoi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
+    "C:\\Users\\samoi\\.nuget\\packages\\nest\\7.17.4\\nest.7.17.4.nupkg.sha512",
+    "C:\\Users\\samoi\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\samoi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bBsdL0UOTZuV4V9TSzN9iP6UF+j+Q9tL1s0ikH+8El3bYrrIEFjA7KdNhj0jqXR+DIO7Gslq86b43k/lTknVCw==",
+  "dgSpecHash": "YNAnHkQJNh0APJWHcH+sfBVJ8V2xQBM3fGfqX9aTJYBqK0S7+DATz5B7Dnd9k0ZW4Z1d6sokFOKPNPjCVgJ8mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samoi\\source\\repos\\CoronaApp_backend\\CoronaApp_backend\\CoronaApp_backend.csproj",
+  "projectFilePath": "D:\\Anton_profile\\Programming\\C#\\CoronaApp_current\\CoronaApp\\CoronaApp_backend\\CoronaApp_backend\\CoronaApp_backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samoi\\.nuget\\packages\\digitalcovidcertificate\\1.3.1.5\\digitalcovidcertificate.1.3.1.5.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\elasticsearch.net\\7.17.4\\elasticsearch.net.7.17.4.nupkg.sha512",
@@ -10,6 +10,8 @@
     "C:\\Users\\samoi\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\samoi\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\samoi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\microsoft.build\\17.0.0\\microsoft.build.17.0.0.nupkg.sha512",
@@ -200,6 +202,7 @@
     "C:\\Users\\samoi\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\samoi\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\samoi\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "2dkZVIIzl2HziJb+tHGJvsZLMrM2kdm11YNHnIrLwTw=",
+  "Source": "TestCors",
+  "BasePath": "_content/TestCors",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TestCors\\wwwroot",
+      "Source": "TestCors",
+      "ContentRoot": "D:\\Anton_profile\\Programming\\C#\\CoronaApp_current\\CoronaApp\\CoronaApp_backend\\TestCors\\wwwroot\\",
+      "BasePath": "_content/TestCors",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Anton_profile\\Programming\\C#\\CoronaApp_current\\CoronaApp\\CoronaApp_backend\\TestCors\\wwwroot\\Index.html",
+      "SourceId": "TestCors",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Anton_profile\\Programming\\C#\\CoronaApp_current\\CoronaApp\\CoronaApp_backend\\TestCors\\wwwroot\\",
+      "BasePath": "_content/TestCors",
+      "RelativePath": "Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    }
+  ]
+}
