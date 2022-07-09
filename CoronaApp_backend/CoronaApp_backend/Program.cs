@@ -25,8 +25,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors();
-app.UseAuthorization();
 app.UseAdditionalLogMidlleware();
+app.UseAuthorization();
 app.MapControllers();
 app.Run();
 
@@ -45,12 +45,12 @@ void AddCors()
 
 void ConfigureLogs()
 {
-	IConfigurationRoot ñonfig = new ConfigurationBuilder()
+	IConfigurationRoot Ã±onfig = new ConfigurationBuilder()
 			.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
 			.Build();
 
 	Log.Logger = new LoggerConfiguration()
-		.ReadFrom.Configuration(ñonfig)
+		.ReadFrom.Configuration(Ã±onfig)
 		.CreateLogger();
 }
 #endregion
