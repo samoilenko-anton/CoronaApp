@@ -36,7 +36,7 @@ namespace CoronaApp_backend.Middleware
 			if (request.Method != HttpMethod.Get.ToString())	//response body will not be read for a GET
 			{
 				HttpResponse response = httpContext.Response;
-				Stream originalStream = response.Body;			//ref to original HttpResponseStream
+				Stream originalStream = response.Body;		//ref to original HttpResponseStream
 
 				MemoryStream memStream = new MemoryStream();
 				response.Body = memStream;
