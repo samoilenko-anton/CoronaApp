@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CoronaApp_DbInfo.Models
 {
@@ -25,19 +24,19 @@ namespace CoronaApp_DbInfo.Models
 		public DateTime DateOfBirth { get; set; }
 
 		[MaxLength(4)]
-		public string? CountryCode { get; set; }                // Example: "UA"
+		public string? CountryCode { get; set; }				// Example: "UA"
 
 		[MaxLength(128)]
-		public string? Issuer { get; set; }                     // Example: "State Enterprise "DIIA"
+		public string? Issuer { get; set; }						// Example: "State Enterprise "DIIA"
 
 		[MaxLength(32)]
-		public string? Manufacturer { get; set; }               // Example: "ORG-100001699" --- code of AstraZeneca AB
+		public string? Manufacturer { get; set; }				// Example: "ORG-100001699" --- code of AstraZeneca AB
 
 		[MaxLength(32)]
-		public string? MedicalProduct { get; set; }             // Example: "EU/1/21/1529" --- code of Vaxzevria
+		public string? MedicalProduct { get; set; }				// Example: "EU/1/21/1529" --- code of Vaxzevria
 
 		[MaxLength(16)]
-		public string? DiseaseCode { get; set; }                // Example: "840539006" --- code for COVID-19 from SNOMED CT (GPS)
+		public string? DiseaseCode { get; set; }				// Example: "840539006" --- code for COVID-19 from SNOMED CT (GPS)
 
 		[MaxLength(16)]
 		public string? Vaccine { get; set; }					// Example: "J07BX03" --- code of covid-19 vaccines
